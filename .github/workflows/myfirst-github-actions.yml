@@ -1,0 +1,10 @@
+Name: Run Shell Ccommands
+On: Push
+
+jobs: run-shell-command:
+runs-on: ubuntu-latest
+
+steps:
+    name:  Echo a String
+    run: echo "welcome to agentic  DevSecOps training"
+
